@@ -5,7 +5,7 @@
 {% block content %}
     <h2>Список тегів</h2>
 
-    <!-- Кнопка для создания нового тега -->
+    <!-- Кнопка для створення нового тегу -->
     <a href="{% url 'notes:tag_create' %}" class="btn btn-primary mb-3">Створити новий тег</a>
 
     <table class="table">
@@ -34,6 +34,6 @@
         </tbody>
     </table>
 
-    <!-- Кнопка для повернення до списку заміток -->
+    <!-- Кнопка для повернення до списку нотаток -->
     <a href="{% url 'notes:note_list' %}" class="btn btn-secondary">Повернутися к списку нотаток</a>
 {% endblock %}
